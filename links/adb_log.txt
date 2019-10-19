@@ -1,0 +1,6 @@
+Skip	W/dalvikvm( 1553): threadid=1: uncaught exception						no match
+Skip	E/( 1553): FATAL EXCEPTION: main										no match
+Skip	E/( 1553): java.lang.StringIndexOutOfBoundsException					no match
+Capture	E/( 1553):   at widget.List.makeView(ListView.java:1727)				makeView ListView.java 1727	
+Capture	E/( 1553):   at widget.List.fillDown(ListView.java:652)					fillDown ListView.java 652	
+Capture	E/( 1553):   at widget.List.fillFrom(ListView.java:709)					fillFrom ListView.java 709
