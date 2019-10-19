@@ -21,4 +21,4 @@ def directory_walker(base_path, search_for, handler):
                 file_to_process = dirpath + '/spyglass.html'
                 print("Processing of " + file_to_process, end='')
                 handler.handle(file_to_process)
-                print(" ...Done!")
+                print("... Done!")
