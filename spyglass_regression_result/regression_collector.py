@@ -4,8 +4,6 @@ import spyglass_handler
 
 def directory_walker(base_path, search_for, handler):
     '''
-    This function has the following logic
-
     @base_path  from where start walking
 
     @search_for  name(s) of file(s) to which @handler should be applied
@@ -14,7 +12,7 @@ def directory_walker(base_path, search_for, handler):
 
 
     Walk recursively on directories starting from specified base path and
-    and apply specified handler to all files satisfing search_for
+    and apply specified handler to all files equal to search_for
     '''
 
     for dirpath, _, files in os.walk(base_path):
