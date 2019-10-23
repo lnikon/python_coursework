@@ -1,0 +1,39 @@
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_sync.U_DWC_usb3_sync_pulse_dbc_usb_reset.src_pulse_edge_r"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.csr_dbc_epinfo"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_csr.hst_reg_data_out[*]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_bmu.sb2rl_dev_usb_inep_pkt_buff_avail[*]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrm.m2bt_reg_wr_rdy"
+#This is a comment
+
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.sm2rb_csr_epinfo"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_lsp.U_DWC_usb3_lsp_glue.r2ml_lsp_ok_u2_hst[*]"
+#This is a comment
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrm.sp2bt_update_u2_pls[0]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_csr.U_DWC_usb3_csr_dev.r2bl_rxfifoempty"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_csr.U_DWC_usb3_csr_dev.grxthrcfg_reg[29]"
+#This is a comment
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.sm32rl_pcc_dbc_tx_idle"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_csr.r2bl_interrupts_ored[*]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.m2rl_csr_epinfo"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_bmu.U_DWC_usb3_bmu_bcu.sr2bt_gmr_mcmdvalid_req"
+#This is a comment
+#Carefull on these lines. Make sure to add / in front of instport
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_u3pwrdwn.U_DWC_usb3_u3rhb.\instport[*].U_DWC_usb3_u3rhb_prt .U_DWC_usb3_u3rhb_prtsm.pop"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_u3pwrdwn.U_DWC_usb3_u3rhb.\instport[*].U_DWC_usb3_u3rhb_prt .rh_dbc_en"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_u3pwrdwn.U_DWC_usb3_u3rhb.\instport[*].U_DWC_usb3_u3rhb_prt .U_DWC_usb3_u3link.U_DWC_usb3_u3link_lque.lqtc_lque_status[*]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_u3pwrdwn.U_DWC_usb3_u3rhb.\instport[*].U_DWC_usb3_u3rhb_prt .U_DWC_usb3_u3link.U_DWC_usb3_u3link_lpent.lprp_pent_rstop"
+
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrm.U_DWC_usb3_pwrm_sync.sm2bb_u2_prt0_state"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_bmu.U_DWC_usb3_bmu_bcu.r2bt_gmw_mcmdvalid_req"
+cdc_attribute -unrelated "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_sync.U_DWC_usb3_bussync_ltdb_sub_state.s2d_tgl" "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_sync.U_DWC_usb3_bussync_csr_epinfo.s_data_new"
+#This is a comment
+cdc_attribute -unrelated "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrm.sb2mb_csr_tx_deemph[*]" "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrm.sb2mb_csr_tx_margin[*]"
+cdc_attribute -unrelated "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.r2m3t_load_ux_timer[*]" "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.r2m3t_tlc_dbc_cmd_request"
+#This is a comment
+cdc_attribute -unrelated "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.U_DWC_usb3_u2pwrdwn.pie_tx_vld[*]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.sm32rb_dbc_port_num[*]"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.pcc3_rx_idle[*]"
+#This is a comment
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrdwn.r2m3l_config_u3e"
+quasi_static -name "DWC_usb3.U_DWC_usb3_noclkrst.U_DWC_usb3_pwrm.U_DWC_usb3_pwrm_csr.b2rl_port_status_change[*]"
+
